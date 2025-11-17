@@ -1,0 +1,129 @@
+═══════════════════════════════════════════════════════════════════
+   BRASUKA TV - INSTRUCCIONES PARA GENERAR APK
+═══════════════════════════════════════════════════════════════════
+
+🎯 OPCIÓN 1: ANDROID STUDIO (RECOMENDADO)
+──────────────────────────────────────────────────────────────────
+
+1. Descarga Android Studio desde:
+   https://developer.android.com/studio
+
+2. Instala Android Studio (acepta todo por defecto)
+
+3. Abre Android Studio y selecciona:
+   "Open an Existing Project" 
+   
+4. Navega a esta carpeta:
+   C:\AndroidTV-LiveStream
+
+5. Espera a que Gradle sincronice (barra inferior)
+
+6. Ve al menú: Build → Build Bundle(s) / APK(s) → Build APK(s)
+
+7. Espera 2-5 minutos. Cuando termine, aparecerá una notificación.
+
+8. Haz clic en "locate" en la notificación, o encuentra el APK en:
+   C:\AndroidTV-LiveStream\app\build\outputs\apk\debug\app-debug.apk
+
+9. ¡Copia ese archivo APK a tu Android TV o celular!
+
+
+═══════════════════════════════════════════════════════════════════
+
+🚀 OPCIÓN 2: COMPILACIÓN ONLINE (SIN INSTALAR NADA)
+──────────────────────────────────────────────────────────────────
+
+A) USANDO GITHUB ACTIONS (GRATIS):
+
+1. Sube este proyecto a GitHub:
+   - Crea una cuenta en github.com
+   - Crea un nuevo repositorio
+   - Sube toda la carpeta AndroidTV-LiveStream
+
+2. Crea el archivo .github/workflows/build.yml con este contenido:
+
+name: Build APK
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+      - name: Build APK
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleDebug
+      - uses: actions/upload-artifact@v3
+        with:
+          name: app-debug
+          path: app/build/outputs/apk/debug/app-debug.apk
+
+3. GitHub compilará automáticamente y podrás descargar el APK
+   desde la sección "Actions" → "Artifacts"
+
+
+B) USANDO APPETIZE.IO:
+   - Sube el proyecto comprimido
+   - Te genera el APK online
+
+
+═══════════════════════════════════════════════════════════════════
+
+📱 INSTALACIÓN EN ANDROID TV / CELULAR
+──────────────────────────────────────────────────────────────────
+
+1. Copia el archivo app-debug.apk a tu dispositivo via:
+   - USB
+   - Google Drive / Dropbox
+   - Envío por correo
+   - ADB: adb install app-debug.apk
+
+2. En tu Android TV/Celular:
+   - Ve a Configuración → Seguridad
+   - Activa "Orígenes desconocidos" o "Instalar apps desconocidas"
+   
+3. Usa un explorador de archivos (File Manager) para encontrar
+   el APK y tocarlo para instalar
+
+4. ¡Abre BrasukaTV y disfruta! 🇧🇷
+
+
+═══════════════════════════════════════════════════════════════════
+
+❓ SOLUCIÓN DE PROBLEMAS
+──────────────────────────────────────────────────────────────────
+
+• Error "SDK not found":
+  → Abre Android Studio y deja que descargue el SDK automáticamente
+
+• Error de compilación:
+  → Asegúrate de tener conexión a Internet (Gradle descarga librerías)
+
+• APK no instala:
+  → Verifica que activaste "Orígenes desconocidos"
+  → Intenta desinstalar versiones anteriores
+
+• App no abre:
+  → Tu dispositivo debe ser Android 5.0 (Lollipop) o superior
+
+
+═══════════════════════════════════════════════════════════════════
+
+📦 CONTENIDO DEL PROYECTO
+──────────────────────────────────────────────────────────────────
+
+✓ 60+ fuentes IPTV integradas (Brasil, Portugal, España, etc.)
+✓ Reproductor ExoPlayer con HLS/DASH
+✓ Sistema de favoritos local (sin login)
+✓ Búsqueda de canales en tiempo real
+✓ Soporte EPG (Guía electrónica)
+✓ Tema brasileño (colores de la bandera)
+✓ Optimizado para Android TV y controles remotos
+
+═══════════════════════════════════════════════════════════════════
+
+¡Cualquier duda, solo pregunta! 🚀

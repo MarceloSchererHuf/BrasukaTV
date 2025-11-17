@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+    
+    <!-- Fondo verde Brasil -->
+    <path
+        android:fillColor="#009739"
+        android:pathData="M0,0h320v180h-320z"/>
+    
+    <!-- Rombo amarillo -->
+    <path
+        android:fillColor="#FEDD00"
+        android:pathData="M160,30 L270,90 L160,150 L50,90 Z"/>
+    
+    <!-- Círculo azul -->
+    <path
+        android:fillColor="#002776"
+        android:pathData="M160,90m-40,0a40,40 0,1,1 80,0a40,40 0,1,1 -80,0"/>
+    
+    <!-- Play button blanco -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M150,75 L150,105 L175,90 Z"/>
+    
+    <!-- Texto TV -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M180,85 h10 v5 h-3 v15 h-4 v-15 h-3 z M193,85 h4 l5,20 h-4 l-3,-20 z"/>
+    
+</vector>

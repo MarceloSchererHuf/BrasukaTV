@@ -1,0 +1,86 @@
+═══════════════════════════════════════════════════════════════════
+   🇧🇷 BRASUKA TV - APK LISTO PARA INSTALAR 🇧🇷
+═══════════════════════════════════════════════════════════════════
+
+¡SUPER FÁCIL! Solo ejecuta un archivo:
+
+📍 OPCIÓN 1 - DOBLE CLIC (RECOMENDADO):
+──────────────────────────────────────────────────────────────────
+1. Busca el archivo: C:\AndroidTV-LiveStream\compilar.bat
+2. Haz DOBLE CLIC en él
+3. Espera 3-5 minutos (descargará componentes y compilará)
+4. ¡LISTO! El archivo BrasukaTV.apk aparecerá en tu Escritorio
+
+📍 OPCIÓN 2 - DESDE POWERSHELL:
+──────────────────────────────────────────────────────────────────
+Ejecuta en PowerShell:
+   cd C:\AndroidTV-LiveStream
+   .\compilar.ps1
+
+═══════════════════════════════════════════════════════════════════
+
+📱 DESPUÉS DE COMPILAR:
+──────────────────────────────────────────────────────────────────
+
+1. Encontrarás BrasukaTV.apk en tu Escritorio (o en C:\)
+
+2. Cópialo a tu Android TV o celular via:
+   • Cable USB
+   • Google Drive
+   • Bluetooth
+   • Email
+
+3. En tu dispositivo Android:
+   • Abre Configuración → Seguridad
+   • Activa "Instalar aplicaciones de origen desconocido"
+   • Abre el archivo BrasukaTV.apk
+   • Pulsa "Instalar"
+
+4. ¡DISFRUTA 60+ CANALES GRATIS! 🎉
+
+═══════════════════════════════════════════════════════════════════
+
+❓ SI ALGO FALLA:
+──────────────────────────────────────────────────────────────────
+
+El script descarga automáticamente:
+• Android SDK (160 MB)
+• Build Tools
+• Plataforma Android 34
+
+Si no tienes Java instalado:
+1. Descarga desde: https://adoptium.net/
+2. Instala Java 17 o superior
+3. Vuelve a ejecutar compilar.bat
+
+═══════════════════════════════════════════════════════════════════
+
+✨ CARACTERÍSTICAS DE BRASUKA TV:
+
+✅ 60+ fuentes IPTV verificadas
+   • TDT Channels (España)
+   • IPTV Brasil
+   • Portugal Channels
+   • FAST Pluto TV, Samsung TV Plus
+   • Canales por país (10 países)
+   • Canales por categoría (Deportes, Películas, Noticias, etc.)
+
+✅ Reproductor profesional ExoPlayer
+   • Soporta HLS, DASH, MP4, TS
+   • Calidad HD y Full HD
+   • Picture-in-Picture
+
+✅ Sin registro ni login
+   • 100% gratis
+   • Sin publicidad intrusiva
+   • Favoritos guardados localmente
+
+✅ Diseño brasileño
+   • Colores de la bandera 🇧🇷
+   • Interface en Portugués/Español
+   • Optimizado para Android TV y control remoto
+
+═══════════════════════════════════════════════════════════════════
+
+¡AHORA EJECUTA compilar.bat Y TENDRÁS TU APK EN 5 MINUTOS! 🚀
+

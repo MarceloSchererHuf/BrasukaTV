@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BrasukaTV</string>
+    <string name="channel_name">Canal</string>
+    <string name="loading">Carregando...</string>
+    <string name="error_playback">Erro ao reproduzir</string>
+    
+    <!-- Categorías -->
+    <string name="category_live">TV ao Vivo</string>
+    <string name="category_movies">Filmes</string>
+    <string name="category_series">Séries</string>
+    <string name="category_sports">Esportes</string>
+    <string name="category_kids">Infantil</string>
+    <string name="category_news">Notícias</string>
+    
+    <!-- Navegación -->
+    <string name="favorites">Favoritos</string>
+    <string name="search">Buscar</string>
+    <string name="settings">Configurações</string>
+    
+    <!-- Mensajes -->
+    <string name="add_to_favorites">Adicionar aos favoritos</string>
+    <string name="remove_from_favorites">Remover dos favoritos</string>
+    <string name="no_favorites">Nenhum favorito ainda</string>
+    <string name="no_results">Nenhum resultado encontrado</string>
+</resources>

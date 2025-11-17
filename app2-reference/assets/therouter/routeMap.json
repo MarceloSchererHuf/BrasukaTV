@@ -1,0 +1,72 @@
+[
+  {
+    "path": "http://module_vod/VodDetailsActivity",
+    "className": "com.vod.ui.activity.VodDetailsActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "http://module_vod/VodCategoryActivity",
+    "className": "com.vod.ui.activity.VodCategoryActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "http://module_vod/UserCenterActivity",
+    "className": "com.vod.ui.activity.UserCenterActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "http://module_vod/TopicActivity",
+    "className": "com.vod.ui.activity.TopicActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "http://module_mine/UserCenterActivity",
+    "className": "com.mine.ui.activity.UserCenterActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "http://module_mine/PurchaseActivity",
+    "className": "com.mine.ui.activity.PurchaseActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "http://module_mine/InviteFriendsActivity",
+    "className": "com.mine.ui.activity.InviteFriendsActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "http://module_main/HomeActivity",
+    "className": "com.main.ui.activity.HomeActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "http://module_login/ForcePasswordChangeActivity",
+    "className": "com.login.ui.activity.ForcePasswordChangeActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "http://download/DownloadActivity",
+    "className": "com.download.activity.DownloadActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  }
+]

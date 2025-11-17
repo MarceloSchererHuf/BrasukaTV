@@ -1,0 +1,33 @@
+# Gradle files
+.gradle/
+build/
+**/build/
+!gradle-wrapper.jar
+
+# Local configuration files
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+.DS_Store
+
+# Generated files
+bin/
+gen/
+out/
+
+# User-specific configurations
+*.apk
+*.ap_
+*.aab
+
+# Log Files
+*.log
+
+# Native
+*.so
+*.o
+
+# Captures
+captures/

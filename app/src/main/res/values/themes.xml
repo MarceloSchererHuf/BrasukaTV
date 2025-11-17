@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema principal BrasukaTV con colores de Brasil -->
+    <style name="Theme.Leanback" parent="Theme.Leanback">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:colorPrimary">@color/brasil_green</item>
+        <item name="android:colorPrimaryDark">@color/brasil_blue</item>
+        <item name="android:colorAccent">@color/brasil_yellow</item>
+    </style>
+
+    <!-- Tema del reproductor -->
+    <style name="Theme.Player" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorPrimary">@color/brasil_green</item>
+        <item name="android:colorAccent">@color/brasil_yellow</item>
+    </style>
+</resources>
